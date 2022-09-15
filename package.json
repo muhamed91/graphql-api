@@ -1,0 +1,32 @@
+{
+  "name": "invoice-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "class-validator": "^0.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.5.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.10.0",
+    "nodemodule": "^0.3.0",
+    "nodemon": "^2.0.16",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "type-graphql": "^1.1.1",
+    "typescript": "^4.7.3"
+  }
+}
